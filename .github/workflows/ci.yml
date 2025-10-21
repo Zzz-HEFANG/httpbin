@@ -3,9 +3,9 @@ name: CI Pipeline
 # 👇 触发条件：当 push 或 PR 到 main 分支时自动运行
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build-and-test:
